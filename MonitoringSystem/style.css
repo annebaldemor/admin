@@ -1,0 +1,168 @@
+*{
+    margin: 0px;
+    padding: 0;
+}
+
+/* BACKGROUND COLOR */
+.main{
+    width: 100%;
+    background: #dc8fa4;
+    background-position: left;
+    background-size: cover;
+    height: 100vh;
+    
+}
+.navbar{
+    width: 100%;
+    height: 100px;
+    margin: auto;
+    background-color: #203354;
+}
+.LOGO{
+    border-radius: 500px;
+}
+
+/* TEXT STYLE CEU */
+.logo{
+    color: #dc8fa4;
+    font-size: 350%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 2%;
+    float: left;
+    padding-top: 1%;
+    text-align: center;
+    transition: 0.5s ease;
+    float: left;
+}
+
+.navbar img {
+    width: 5.5%;
+    float: left;
+    padding: 5px;
+    padding-left: 2%;
+}
+
+.logo:hover{
+    color: #fcfcfc;
+}
+
+/* DESIGN FOR AQR-IT TITLE */
+.instructions{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 350%;
+    font-weight: bold;
+    color: #203354;
+    padding-top: 2.5%;
+    float: left;
+}
+
+.AQRIT img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 9%;
+    padding-top: 2.2%;
+}
+
+
+/* DESIGN FOR FORM */
+.form{                                    
+    width: 20%;
+    height: 36%;
+    background: #203354;
+    border-radius: 5%;
+    padding: 2%;
+    margin-top: 8%;
+    margin-left: 38%;
+}
+
+/* STYLE FOR "LOGIN HERE" */
+.form h2{
+    width: 63%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: #dc8fa4;
+    font-size: 200%;
+    padding: 3%;
+    margin-left: 15%;
+}
+
+/* EDITOR FOR PASSWORD PART BOX */
+.form .Pass-word {
+    width: 100%;
+    padding-right: 2%;
+    padding-left: 10%;
+    padding-top: 10%;
+    margin: 1%;
+    box-sizing: border-box;
+    float: right;
+}
+
+.form .Pass-word img {
+    width: 10%;
+    float: left;
+}
+
+/* EDITOR FOR STUDENT NUMBER PART BOX */
+.form .Student-Number {
+    width: 100%;
+    padding-right: 2%;
+    padding-left: 10%;
+    padding-top: 5%;
+    margin: 1%;
+    box-sizing: border-box;
+    float: right;
+}
+
+/* PERSON ICON EDITOR */
+.form .Student-Number img {
+    width: 10%;
+    float: left;
+    padding-right: 100px;
+}
+
+/* STYLE FOR INPUT BOX */
+.form .Student-Number input[type=text], select {
+    width: 100%;
+    padding: 4%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: inline-block;
+  }
+
+.form .Pass-word input[type=password], select {
+    width: 100%;
+    padding: 4%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: inline-block;
+  }
+
+/* STYLE FOR LOGIN BUTTON */
+.form .Button{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #dc8fa4;
+    margin-top: 30%;
+    font-size: 120%;
+    font-weight: bold;
+    cursor: pointer;
+    padding-right: 30%;
+    padding-left: 30%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    transition: 0.3s ease-in-out;
+}
+
+.form .Button:hover {
+    color: #f9f5f0;
+}
+
+
+    
+
+
+
+
+
