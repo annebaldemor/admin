@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
-
 *{
     margin: 0;
     padding: 0;
@@ -8,24 +7,22 @@
 }
 body{
     display: flex;
-    height: 90vh;
+    height: 100vh;
     justify-content: center;
     align-items: center;
     background-color: #dc8fa4;
     padding: 10px;
 }
 .container {
-    max-width: 700px;
-    width: 100%;
+    max-width: 500px;
     background: #203354;
     padding: 25px 30px;
     border-radius: 5px;
 }
 .container .title {
-    font-size: 45px;
-    font-weight: 600;
+    font-size: 30px;
+    font-weight: 500;
     position: relative;
-    background-color: #203354;
     color: #f9f5f0;
 }
 .container .title::before{
@@ -34,7 +31,7 @@ body{
     left: 0;
     bottom: 0;
     height: 3px;
-    width: 20px;
+    width: 30px;
     background: #dc8fa4;
 }
 .container form .user-details{
@@ -43,26 +40,26 @@ body{
     justify-content: space-between;
 }
 form .user-details .input-box{
-    margin: 20px 0 15px 0;
+    margin: 20px 0 12px 0;
     width: calc(100% / 2 - 20px);
 }
 .user-details .input-box .details{
     font-weight: 500;
-    margin-bottom: 3px;
+    margin-bottom: 5px;
     color: #f9f5f0;
 }
 .user-details .input-box .input{
-    height: 35px;
+    height: 45px;
     width: 100%;
-    outline: black;
-    border-radius: 15px;
+    outline: none;
+    border-radius: 5px;
     border: 1px solid #ccc;
     padding-left: 15px;
     font-size: 16px;
 }
 .user-details .input-box .input:focus,
 .user-details .input-box .input:valid{
-    border-color: #f9f5f0;    
+    border-color: #f9f5f0;;    
 }
 form .gender-details .gender-title {
     font-size: 20px;
@@ -81,8 +78,8 @@ form .gender-details .category {
     align-items: center;
 }
 .gender-details .category .dot{
-    height: 20px;
-    width: 20px;
+    height: 18px;
+    width: 18px;
     background: #d9d9d9;
     border-radius: 50%;
     margin-right: 10px;
@@ -100,7 +97,7 @@ form input[type="radio"]{
 }
 form .button {
     height: 45px;
-    margin: 50px 0;
+    margin: 45px 0;
 }
 form .button input{
     height: 100%;
@@ -109,10 +106,10 @@ form .button input{
     color: #f9f5f0;
     border: none;
     font-size: 22px;
-    font-weight: 600px;
-    background: #152238; 
+    font-weight: 500px;
+    background: #152238;
     letter-spacing: 1px;
-    border-radius: 50px;
+    border-radius: 5px;
 }
 form .button input:hover{
     background: #dc8fa4;
