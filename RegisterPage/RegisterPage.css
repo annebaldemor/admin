@@ -48,14 +48,14 @@ form .user-details .input-box{
 }
 .user-details .input-box .details{
     font-weight: 500;
-    margin-bottom: 5px;
+    margin-bottom: 3px;
     color: #f9f5f0;
 }
 .user-details .input-box .input{
     height: 35px;
     width: 100%;
     outline: black;
-    border-radius: 5px;
+    border-radius: 15px;
     border: 1px solid #ccc;
     padding-left: 15px;
     font-size: 16px;
@@ -100,7 +100,7 @@ form input[type="radio"]{
 }
 form .button {
     height: 45px;
-    margin: 45px 0;
+    margin: 50px 0;
 }
 form .button input{
     height: 100%;
@@ -112,7 +112,7 @@ form .button input{
     font-weight: 600px;
     background: #152238; 
     letter-spacing: 1px;
-    border-radius: 5px;
+    border-radius: 50px;
 }
 form .button input:hover{
     background: #dc8fa4;
